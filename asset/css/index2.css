@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Arial;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(10, 10, 10);
+}
+i{
+    color: white;
+    font-size: 20px;
+}
+.chat{
+    color: white;
+    font-size: 21px;
+    
+}
+.chat:hover{
+    background: rgba(31, 30, 30, 0.397);
+    /* height: 50px; */
+    border-radius: 12px;
+}
+.btn button{
+    width: 94px;
+    height: 38px;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 13px;
+}
+.btn-1{
+    background: white;
+    color: black;
+}
+.btn-2{
+    background: transparent;
+    color: white;
+    border: 1px solid gray;
+}
+.main-body{
+    margin-top: 13rem;
+    color: white;
+}
+.main-body h1{
+    font-size: 32px;
+}
+.main-body .sip{
+    display: flex;
+    position: absolute;
+    color: white;
+    background-color: rgb(46, 44, 44);
+    border-radius: 28px;
+    padding: 10px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    left: 49rem;
+    top: 0.7rem;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+
+    position: relative;
+    align-items: center;
+    /* justify-content: center; */
+}
+input::placeholder{
+    padding-left: 1rem;
+    border: none;
+}
+input:active{
+    border: none;
+}
+
+
+input{
+    width: 52rem;
+    border-radius: 33px;
+    background: rgba(31, 30, 30, 0.397);
+    border: none;
+    
+}
+.multi-btn i{
+    font-size: 14px;
+}
+.multi-btn button{
+    /* flex-wrap: nowrap; */
+    padding: 1rem;
+    border-radius: 25px;
+    font-weight: 750;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(39, 39, 39);
+    margin-right: 1rem;
+}
+.multi-btn button:hover{
+    background-color: rgb(37, 36, 36);
+    border: 1px solid rgb(39, 39, 39);
+}
+
+.deal-1{
+    color: yellow;
+}
+.deal-2{
+    color: plum;
+}
+.deal-3, .deal-4{
+    color: plum;
+}
+.deal-5{
+    color: orange;
+}

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Arial;
+    text-decoration: none;
+}
+i{
+    color: white;
+}
+main{
+    /* background-color: red; */
+    height: 100vh;
+    /* left: 10rem; */
+    
+}
+.sidebar{
+    position: fixed;
+    background: black;
+    overflow: auto;
+    top: 0;
+    /* box-shadow: 10px 10px 10px #000000; */
+}
+.main-body{
+    position: relative;
+    background: rgb(26, 25, 25);
+    left: 16.6rem;
+    top: 0; 
+    overflow: auto;
+}
+.tip-icons{
+    color: white;
+}
+.btn{
+    position: fixed;
+    bottom: 20px;
+    right: 14rem;
+}
+input{
+    width: 50rem;
+    border-radius: 5rem;
+}
+input::placeholder{
+
+}
+p{
+    color: white;
+    font-size: 14px;
+}
+.text1{
+    /* background: red; */
+    border-radius: 40px;
+    color: white;
+}
+.text1:hover{
+    opacity: .9s;
+    /* background-color: black; */
+    background: red;
+    border-radius: 40px;
+    /* color: white; */
+}
+.text1 #none{
+    visibility: hidden;
+}
+.text1:hover #none{
+    visibility: visible;
+}

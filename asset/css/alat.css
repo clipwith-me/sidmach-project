@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Roboto, "Arial";
+}
+.start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+a{
+    color: rgb(128, 0, 11);
+    font-weight: 600;
+    margin-left: 3rem;
+}
+.taken{
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+img{
+    width: 50px;
+}
+.head-talk{
+    /* border-bottom: 4px solid rgb(128, 0, 11); */
+    /* width: 140px; */
+    font-size: 12px;
+}
+.head-talk p{
+    background-color: rgb(128, 0, 11);
+    height: 5px;
+    width: 40px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.fetch{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
+input{
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
+.two{
+    display: flex;
+    justify-content: space-between;
+}
+.rel{
+    position: relative;
+}
+.lute{
+    position: absolute;
+    top: 22.6rem;
+    right: 38.5rem;
+}
