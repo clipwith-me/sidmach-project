@@ -32,35 +32,3 @@ ul li a{
 .flee a{
     color: lightseagreen;
 }
-.back-text{
-    position: absolute;
-    color: white;
-    left: 28rem;
-    top: 15rem;
-    flex-wrap: wrap;
-    align-items: center;
-}
-.back-text h2{
-    font-size: 52px;
-    font-weight: 200;
-    width: 48rem;
-}
-.btn{
-    padding: 1rem;
-    width: 9rem;
-    background: transparent;
-    border: 1px solid lightseagreen;
-    color: lightseagreen;
-}
-.sub-card img{
-    width: 15rem;
-    height: 15rem;
-    border: 2px solid lightseagreen;
-    border-radius: 12px;
-    object-fit: cover;
-}
-article{
-    position: absolute;
-    top: 35rem;
-    left: 21rem;
-}

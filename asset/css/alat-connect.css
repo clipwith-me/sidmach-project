@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Arial;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.568);
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20rem;
+    /* vertical-align: middle; */
+}
+img{
+    width: 8rem;
+    /* height: ; */
+}
+.grow{
+    animation: grow 2s linear infinite;
+}
+@keyframes grow{
+    0%, to{
+        transform: c;
+    }
+}
